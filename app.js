@@ -162,4 +162,6 @@ function addZero(n) {
 
 
 // 这里记住要用server去监听端口，而不是app.listen去监听(防止找不到/socket.io/socket.io.js文件)
-server.listen(4000);
+server.listen(4000, function(){
+    console.log('http://localhost:4000')
+});

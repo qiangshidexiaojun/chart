@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "``` // index.html文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiangshidexiaojun/chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiangshidexiaojun/chat/issues"
+  },
+  "homepage": "https://github.com/qiangshidexiaojun/chat#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "ws": "^6.1.0"
+  }
+}
